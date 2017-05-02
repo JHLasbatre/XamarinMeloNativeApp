@@ -13,6 +13,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		XamarinMeloNativeApp\XamarinMeloNativeApp\XamarinMeloNativeApp.projitems*{1649b902-9179-4f46-b220-9b68aa3a6b49}*SharedItemsImports = 13
 		XamarinMeloNativeApp\XamarinMeloNativeApp\XamarinMeloNativeApp.projitems*{672c9cdc-8653-4891-8bda-b50dac41efcd}*SharedItemsImports = 4
+		XamarinMeloNativeApp\XamarinMeloNativeApp\XamarinMeloNativeApp.projitems*{b9fc9fce-e7fc-4577-8321-7fa4340c2a8b}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
