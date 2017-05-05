@@ -1,39 +1,59 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 
 namespace XamarinMeloNativeApp.Droid
 {
-    class ClientRC
+    class Playlist
     {
-        private int uid;
-        private List<Song> topLike;
-        private List<Song> topListened;
-        private string location;
-        private Song broadcastingSong;
+        private List<Song> list;
+        private string listName;
+        private string ytVisibility;
 
+        // Constructeurs
 
-        //Constructeurs
-
-        public ClientRC(int uid, List<Song> topLike, List<Song> topListened, string location, Song broadcastingSong)
+        public Playlist(List<Song> list, string listName, string ytVisibility)
         {
-            this.Uid = uid;
-            this.TopLike = topLike;
-            this.TopListened = topListened;
-            this.Location = location;
-            this.BroadcastingSong = broadcastingSong;
+            this.List = list;
+            this.ListName = listName;
+            this.YtVisibility = ytVisibility;
+        }
+        // Méthodes
+
+        public void ReadPlaylist()
+        {
+
         }
 
-        // Méthodes
-        //suce
+        public void AddSong(Song s)
+        {
+            list.Add(s);
+        }
+
+        public void DeleteSong(Song s)
+        {
+            list.Remove(s);
+        }
+
+        public void DeletePlaylist()
+        {
+
+        }
+
+        public void RenamePlaylist(string newName)
+        {
+            ListName = newName;
+        }
+
+        public void LoopPlaylist()
+        {
+
+        }
+
+        public void ReadPlaylistRandomly()
+        {
+
+        }
 
         public override string ToString()
         {
@@ -41,71 +61,43 @@ namespace XamarinMeloNativeApp.Droid
         }
 
 
-        public int Uid
+        public string ListName
         {
             get
             {
-                return uid;
+                return listName;
             }
 
             set
             {
-                uid = value;
+                listName = value;
             }
         }
 
-        internal List<Song> TopLike
+        public string YtVisibility
         {
             get
             {
-                return topLike;
+                return ytVisibility;
             }
 
             set
             {
-                topLike = value;
+                ytVisibility = value;
             }
         }
 
-        internal List<Song> TopListened
+        internal List<Song> List
         {
             get
             {
-                return topListened;
+                return list;
             }
 
             set
             {
-                topListened = value;
+                list = value;
             }
         }
-
-        public string Location
-        {
-            get
-            {
-                return location;
-            }
-
-            set
-            {
-                location = value;
-            }
-        }
-
-        internal Song BroadcastingSong
-        {
-            get
-            {
-                return broadcastingSong;
-            }
-
-            set
-            {
-                broadcastingSong = value;
-            }
-        }
-
-
     }
 }
