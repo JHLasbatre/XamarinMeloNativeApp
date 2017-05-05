@@ -33,7 +33,7 @@ namespace XamarinMeloNativeApp.Droid
         }
 
         // Méthodes
-
+        //suce
 
         public override string ToString()
         {
