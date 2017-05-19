@@ -9,14 +9,23 @@
     <Import_RootNamespace>XamarinMeloNativeApp</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ClientRC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ClientRCEnvoi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ClientRCRetour.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ClientRCRetourPerso.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Genre.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\MessagingCenterAlert.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ServiceLocator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IBaseDataObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IMessageDialog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Lieu.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\BaseDataObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Personne.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Playlist.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\IDataStore.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\MockDataStore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Song.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AboutViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BaseViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ItemDetailViewModel.cs" />
