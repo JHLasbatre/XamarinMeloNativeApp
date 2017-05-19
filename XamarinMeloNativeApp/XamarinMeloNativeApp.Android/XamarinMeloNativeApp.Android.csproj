@@ -102,6 +102,7 @@
     <Compile Include="Broadcaster.cs" />
     <Compile Include="ClientRC.cs" />
     <Compile Include="Fragments\IFragmentVisible.cs" />
+    <Compile Include="Genre.cs" />
     <Compile Include="Helpers\MessageDialog.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="PersonneMorale.cs" />
