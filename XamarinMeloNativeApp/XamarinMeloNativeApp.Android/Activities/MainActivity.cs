@@ -16,16 +16,18 @@ namespace XamarinMeloNativeApp.Droid
         ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : BaseActivity
     {
-
         protected override int LayoutResource => Resource.Layout.activity_main;
 
+        /*
         ViewPager pager;
         TabsAdapter adapter;
+        */
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
+            /*
             adapter = new TabsAdapter(this, SupportFragmentManager);
             pager = FindViewById<ViewPager>(Resource.Id.viewpager);
             var tabs = FindViewById<TabLayout>(Resource.Id.tabs);
@@ -48,8 +50,9 @@ namespace XamarinMeloNativeApp.Droid
 
             SupportActionBar.SetDisplayHomeAsUpEnabled(false);
             SupportActionBar.SetHomeButtonEnabled(false);
+            */
 
-
+            SetContentView(Resource.Layout.activity_main);
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
