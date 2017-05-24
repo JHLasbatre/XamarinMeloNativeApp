@@ -1918,17 +1918,20 @@ namespace XamarinMeloNativeApp.Droid
 			// aapt resource value: 0x7f020050
 			public const int ic_save = 2130837584;
 			
-			// aapt resource value: 0x7f020054
-			public const int notification_template_icon_bg = 2130837588;
-			
 			// aapt resource value: 0x7f020051
-			public const int profile_generic = 2130837585;
+			public const int melotexte = 2130837585;
+			
+			// aapt resource value: 0x7f020055
+			public const int notification_template_icon_bg = 2130837589;
 			
 			// aapt resource value: 0x7f020052
-			public const int vinyl = 2130837586;
+			public const int profile_generic = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int xamarin_logo = 2130837587;
+			public const int vinyl = 2130837587;
+			
+			// aapt resource value: 0x7f020054
+			public const int xamarin_logo = 2130837588;
 			
 			static Drawable()
 			{
