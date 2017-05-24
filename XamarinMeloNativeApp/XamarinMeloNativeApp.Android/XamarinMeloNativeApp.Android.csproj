@@ -188,10 +188,13 @@
     <AndroidResource Include="Resources\drawable\vinyl.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\melotexte.png" />
+    <AndroidResource Include="Resources\drawable\meloLogo.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\melo logo.png" />
+    <AndroidResource Include="Resources\drawable\meloTextBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\meloTextWhite.png" />
   </ItemGroup>
   <Import Project="..\XamarinMeloNativeApp\XamarinMeloNativeApp.projitems" Label="Shared" Condition="Exists('..\XamarinMeloNativeApp\XamarinMeloNativeApp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
