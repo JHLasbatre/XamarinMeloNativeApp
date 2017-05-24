@@ -97,8 +97,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activities\AddItemActivity.cs" />
-    <Compile Include="Activities\BrowseItemDetailActivity.cs" />
     <Compile Include="Fragments\IFragmentVisible.cs" />
     <Compile Include="Helpers\MessageDialog.cs" />
     <Compile Include="Activities\MainActivity.cs" />
@@ -108,9 +106,7 @@
     <Compile Include="Fragments\BrowseFragment.cs" />
     <Compile Include="Helpers\RecyclerClickEvent.cs" />
     <Compile Include="Helpers\BaseRecycleViewAdapter.cs" />
-    <Compile Include="Activities\BaseActivity.cs" />
     <Compile Include="MainApplication.cs" />
-    <Compile Include="Activities\SplashActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -118,26 +114,16 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\activity_login.axml">
+    <AndroidResource Include="Resources\layout\splash.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\activity_item_details.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\activity_add_item.axml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\activity_main.axml" />
     <AndroidResource Include="Resources\values\strings.xml" />
     <AndroidResource Include="Resources\drawable\xamarin_logo.png" />
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\values-v21\styles.xml" />
-    <AndroidResource Include="Resources\layout\tabs.axml" />
-    <AndroidResource Include="Resources\layout\toolbar.axml" />
-    <AndroidResource Include="Resources\layout\fragment_browse.axml" />
-    <AndroidResource Include="Resources\layout\fragment_about.axml" />
-    <AndroidResource Include="Resources\layout\item_browse.axml" />
     <AndroidResource Include="Resources\values\dimens.axml" />
     <AndroidResource Include="Resources\drawable\circle_background.xml" />
     <AndroidResource Include="Resources\values\arrays.xml" />
@@ -188,11 +174,15 @@
     <AndroidResource Include="Resources\drawable\vinyl.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\melotexte.png" />
+    <AndroidResource Include="Resources\drawable\meloLogo.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\melo logo.png" />
+    <AndroidResource Include="Resources\drawable\meloTextBlack.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\meloTextWhite.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="..\XamarinMeloNativeApp\XamarinMeloNativeApp.projitems" Label="Shared" Condition="Exists('..\XamarinMeloNativeApp\XamarinMeloNativeApp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
