@@ -1919,19 +1919,25 @@ namespace XamarinMeloNativeApp.Droid
 			public const int ic_save = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int melotexte = 2130837585;
-			
-			// aapt resource value: 0x7f020055
-			public const int notification_template_icon_bg = 2130837589;
+			public const int meloLogo = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int profile_generic = 2130837586;
+			public const int meloTextBlack = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int vinyl = 2130837587;
+			public const int meloTextWhite = 2130837587;
+			
+			// aapt resource value: 0x7f020057
+			public const int notification_template_icon_bg = 2130837591;
 			
 			// aapt resource value: 0x7f020054
-			public const int xamarin_logo = 2130837588;
+			public const int profile_generic = 2130837588;
+			
+			// aapt resource value: 0x7f020055
+			public const int vinyl = 2130837589;
+			
+			// aapt resource value: 0x7f020056
+			public const int xamarin_logo = 2130837590;
 			
 			static Drawable()
 			{
@@ -2126,6 +2132,9 @@ namespace XamarinMeloNativeApp.Droid
 			// aapt resource value: 0x7f060038
 			public const int @fixed = 2131099704;
 			
+			// aapt resource value: 0x7f060075
+			public const int frameLayout1 = 2131099765;
+			
 			// aapt resource value: 0x7f060005
 			public const int home = 2131099653;
 			
@@ -2140,9 +2149,6 @@ namespace XamarinMeloNativeApp.Droid
 			
 			// aapt resource value: 0x7f06003f
 			public const int image = 2131099711;
-			
-			// aapt resource value: 0x7f060076
-			public const int imageView1 = 2131099766;
 			
 			// aapt resource value: 0x7f060090
 			public const int info = 2131099792;
@@ -2224,9 +2230,6 @@ namespace XamarinMeloNativeApp.Droid
 			
 			// aapt resource value: 0x7f060082
 			public const int refresher = 2131099778;
-			
-			// aapt resource value: 0x7f060075
-			public const int relativeLayout1 = 2131099765;
 			
 			// aapt resource value: 0x7f060030
 			public const int right = 2131099696;
@@ -2383,6 +2386,9 @@ namespace XamarinMeloNativeApp.Droid
 			
 			// aapt resource value: 0x7f06000a
 			public const int view_offset_helper = 2131099658;
+			
+			// aapt resource value: 0x7f060076
+			public const int vynilBg = 2131099766;
 			
 			// aapt resource value: 0x7f060022
 			public const int withText = 2131099682;
